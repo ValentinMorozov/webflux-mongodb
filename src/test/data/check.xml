@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<main>
+	<check>
+		<timestamp>11.10.2021 18:26:14</timestamp>
+		<external_id>4f444abd-6b15-495f-8799-fa5601949381</external_id>
+		<is_bso>false</is_bso>
+		<receipt>
+			<operation>sell</operation>
+			<client>
+				<email>test@test.ru</email>
+			</client>
+			<company>
+				<email>test@test.ru</email>
+				<sno>osn</sno>
+				<inn>3773737737</inn>
+				<payment_address>HTTPS://GOSPAY.RU</payment_address>
+			</company>
+			<items>
+				<item>
+					<name>Оплата услуги</name>
+					<price>2300.00</price>
+					<quantity>1</quantity>
+					<sum>2300.00</sum>
+					<measurement_unit>Ед.</measurement_unit>
+					<payment_method>full_payment</payment_method>
+					<payment_object>service</payment_object>
+					<vat>
+						<type>vat20</type>
+						<sum>400.90</sum>
+					</vat>
+				</item>
+				<item>
+					<name>Оплата услуги</name>
+					<price>2000.00</price>
+					<quantity>1</quantity>
+					<sum>2000.00</sum>
+					<measurement_unit>Ед.</measurement_unit>
+					<payment_method>full_payment</payment_method>
+					<payment_object>service</payment_object>
+					<vat>
+						<type>vat20</type>
+						<sum>333.34</sum>
+					</vat>
+				</item>
+			</items>
+			<payments>
+				<payment>
+					<type>1</type>
+					<sum>2300.00</sum>
+				</payment>
+				<payment>
+					<type>1</type>
+					<sum>2000.00</sum>
+				</payment>
+			</payments>
+			<vats>
+				<vat>
+					<type>vat20</type>
+					<sum>400.90</sum>
+				</vat>
+				<vat>
+					<type>vat20</type>
+					<sum>333.34</sum>
+				</vat>
+			</vats>
+			<total>4300.00</total>
+			<cashier>Максимова Инна Александровна</cashier>
+		</receipt>
+	</check>
+</main>

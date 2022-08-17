@@ -8,9 +8,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class MongoReactiveApplication {
 
 	public static void main(String[] args) {
-//		SpringApplication springApplication = new SpringApplication();
-//		springApplication.setWebApplicationType(WebApplicationType.REACTIVE);
-		SpringApplication.run(MongoReactiveApplication.class, args);
+		SpringApplication springApplication = new SpringApplication();
+		springApplication.setWebApplicationType(WebApplicationType.REACTIVE);
+		springApplication.run(MongoReactiveApplication.class, args);
 	}
 
 }
